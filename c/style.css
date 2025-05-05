@@ -94,48 +94,6 @@ footer {
     width: 100%;
 }
 
-#horse-racing {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    border: 2px solid #444;
-    background: linear-gradient(to right, #2d2d2d, #1a1a1a);
-    overflow: hidden;
-    margin-top: 20px;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.horse-track-line {
-    position: relative;
-    height: 50px;
-    margin: 10px 0;
-    border-bottom: 1px dashed #555;
-}
-
-.horse {
-    position: absolute;
-    left: 0%;
-    font-size: 32px;
-    transition: left 0.1s ease-in-out;
-}
-
-.finish-line {
-    position: absolute;
-    top: 0;
-    right: 10%;
-    width: 4px;
-    height: 100%;
-    background: repeating-linear-gradient(
-        to bottom,
-        red,
-        red 10px,
-        white 10px,
-        white 20px
-    );
-}
-
-
 /* Game results */
 #race-result, #blackjack-result, #slots-result, #coin-flip-result {
     font-size: 1.5em;
